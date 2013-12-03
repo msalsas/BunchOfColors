@@ -1,0 +1,280 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+background: url(img/seamless-clouds6-01-111413-2306.jpg) no-repeat;
+font: 15px verdana, sans-serif;
+height: auto;
+text-align: center;
+max-width:2000px;
+min-width:280px;
+}
+.articulo {
+margin: 15px;
+height: auto;
+}
+.seccion {
+font-size: 0.7em;
+box-shadow: rgba(2,2,2,0.8) 5px 5px 10px;
+padding-top: 20px;
+text-align: center;
+}
+.seccion h1 {
+color: #222222;
+font-size: 2.5em;
+margin: 15px;
+}
+.seccion h2 {
+color: #222222;
+font-size: 2.2em;
+margin: 10px;
+}
+#agrupar {
+width: 100%;
+text-align: left;
+}
+#cabecera {
+box-shadow: rgba(2,2,2,0.8) 5px 5px 10px;
+min-height: 100px;
+max-height: 550px;
+width: 100%;
+} 
+#fondo_cabecera {
+display: block;
+max-width:100%;
+min-height: 100px;
+max-height: 250px;
+width:auto\9; /*ie8*/
+}
+#logo{
+margin-left: 21%;
+margin-top: -19px;
+max-width:70%;
+height:auto;
+width:auto\9; /*ie8*/
+position: absolute; 
+top: 25px;
+}
+#img_cabecera {
+max-width:100%;
+height:auto;
+width:auto\9; /*ie8*/
+} 
+#myColor {
+border: 1px solid black; 
+font-size:2em;
+margin: 30px 0px;
+padding: 3%;
+box-shadow: rgba(2,2,2,0.8) 5px 5px 10px;
+width: 93%; 
+height: 200px;
+}
+#allColors {
+margin: 1%;
+padding: 2%;
+}
+#commonColors {
+font-size:1.3em;
+margin-top: 15px;
+margin-bottom: 15px;
+width: 100%;
+height: auto;
+}
+#tw {
+position: absolute;
+top: 80px;
+left: 5px;
+}
+#gplus {
+position: absolute;
+top: 80px;
+left: 85px;
+}
+.commonColor {
+padding: 5px;
+width: 14%;
+height: 60px;
+padding: 3%;
+}
+.color {
+font-size: 0.7em;
+margin: 5px;
+padding: 5px;
+box-shadow: rgba(2,2,2,0.8) 1px 1px 2px;
+width: 70px; 
+}
+.color a, .commonColor a {
+color: black;
+text-decoration: none;
+}
+.commonColor, .color, .accurate, .luminance, #luminance, #accuracy {
+display: inline-block;
+zoom: 1;
+*display: inline;
+}
+#buttons {
+margin: 20px;
+}
+#luminance, #accuracy {
+margin: 10px 20px;
+}
+#footer {
+margin: 20px;
+text-align: center;
+}
+#about {
+font: italic bold 1.2em Verdana, Helvetica, Arial, sans-serif;
+position: absolute;
+top: 80px;
+right:10px;
+}
+#about a{
+text-decoration: none;
+}
+
+@media only screen and (min-width: 800px){
+	#img_cabecera {width: 500px;}
+	#logo {top: 40px;}
+}
+@media only screen and (min-width: 900px){
+	#gplus, #tw, #about {top: 90px;}
+}
+@media only screen and (min-width:1200px){
+	body{font-size:1.2em;}
+	#gplus, #tw, #about {top: 120px;}
+	#logo {top: 60px;}
+}
+@media only screen and (min-width:1330px){
+	#gplus, #tw, #about {top: 140px;}
+}
+@media only screen and (min-width:1401px){
+	body{font-size:1.3em;}
+	#gplus, #tw, #about {top: 150px;}
+	#logo {top: 80px;}
+}
+@media only screen and (min-width:1701px){
+	#gplus, #tw, #about {top: 180px;}
+}
+@media only screen and (max-width:1199px){
+	body{font-size:1.1em;}
+    .color {width: 60px; }
+}
+@media only screen and (max-width:999px){
+    body{font-size:1em;}
+    .color {width: 50px; }
+}
+@media only screen and (max-width:499px){
+    body{font-size:0.8em;}
+    .color {width: 45px; }
+}
+@media only screen and (max-width:430px){
+    body{font-size:0.7em;}
+    .color {width: 40px; }
+}
+
+#img_cabecera {
+transition-property: width, transform;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+transition-delay: 0.1s;
+-moz-transition-property: width, transform;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-out;
+-moz-transition-delay: 0.1s;
+-webkit-transition-property: width, transform;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-delay: 0.1s;
+-o-transition-property: width, transform;
+-o-transition-duration: 0.5s;
+-o-transition-timing-function: ease-out;
+-o-transition-delay: 0.1s;
+}
+#img_cabecera:hover {
+transition-property: width, transform, -webkit-transform, -o-transform, -ms-transform;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+transition-delay: 0.1s;
+-moz-transition-property: width, transform, -webkit-transform, -o-transform, -ms-transform;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-out;
+-moz-transition-delay: 0.1s;
+-webkit-transition-property: width, transform, -webkit-transform, -o-transform, -ms-transform;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-delay: 0.1s;
+-o-transition-property: width, transform;
+-o-transition-duration: 0.5s;
+-o-transition-timing-function: ease-out;
+-o-transition-delay: 0.1s;
+transform:rotate(10deg);
+transform-origin: center center;
+-ms-transform:rotate(10deg); /* IE 9 */
+-ms-transform-origin: center center;
+-webkit-transform:rotate(10deg); /* Safari and Chrome */
+-webkit-transform-origin: center center;
+-o-transform:rotate(10deg); /* Opera */
+-o-transform-origin: center center;
+width: 200px;
+}
+.color {
+transition-property: box-shadow, font-size;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+-moz-transition-property: box-shadow, font-size;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-out;
+-webkit-transition-property: box-shadow, font-size;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+-o-transition-property: box-shadow, font-size;
+-o-transition-duration: 1s;
+-o-transition-timing-function: ease-out;
+}
+#myColor, .color a {
+transition-property: color;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+-moz-transition-property: color;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-out;
+-webkit-transition-property: color;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+-o-transition-property: color;
+-o-transition-duration: 1s;
+-o-transition-timing-function: ease-out;
+color: black;
+}
+#myColor:hover, .color a:hover {
+transition-property: color;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+-moz-transition-property: color;
+-moz-transition-duration: 1s;
+-moz-transition-timing-function: ease-out;
+-webkit-transition-property: color;
+-webkit-transition-duration: 1s;
+-webkit-transition-timing-function: ease-out;
+-o-transition-property: color;
+-o-transition-duration: 1s;
+-o-transition-timing-function: ease-out;
+color:white;
+}
+.color:hover {
+transition-property: box-shadow, font-size;
+transition-duration: 0.5s;
+transition-timing-function: ease-out;
+-moz-transition-property: box-shadow, font-size;
+-moz-transition-duration: 0.5s;
+-moz-transition-timing-function: ease-out;
+-webkit-transition-property: box-shadow, font-size;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease-out;
+-o-transition-property: box-shadow, font-size;
+-o-transition-duration: 0.5s;
+-o-transition-timing-function: ease-out;
+box-shadow: 5px 5px 5px rgba(2,2,2,1) ;
+font-size: 0.72em;
+}
