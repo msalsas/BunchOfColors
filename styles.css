@@ -187,7 +187,7 @@ transition-delay: 0.1s;
 -webkit-transition-timing-function: ease-out;
 -webkit-transition-delay: 0.1s;
 -o-transition-property: width, transform, -webkit-transform, -o-transform, -ms-transform;
--o-transition-duration: 0.5s;
+-o-transition-duration: 1s;
 -o-transition-timing-function: ease-out;
 -o-transition-delay: 0.1s;
 }
@@ -204,7 +204,7 @@ transition-delay: 0.1s;
 -webkit-transition-duration: 1s;
 -webkit-transition-timing-function: ease-out;
 -webkit-transition-delay: 0.1s;
--o-transition-property: width, transform;
+-o-transition-property: width, transform, -webkit-transform, -o-transform, -ms-transform;
 -o-transition-duration: 1s;
 -o-transition-timing-function: ease-out;
 -o-transition-delay: 0.1s;
