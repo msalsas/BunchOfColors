@@ -21,7 +21,14 @@
         <link href="/styles.css" type="text/css" rel="stylesheet" media="all"/>   
 		<link rel="icon" type="image/x-icon" href="/img/favicon.png" />
 	</head>
-    <body>
+        <body itemscope itemtype="http://schema.org/WebApplication">
+		<meta itemprop="name" content="BunchOfColors" />
+		<meta itemprop="image" content="http://bunchofcolors.com/img/logo2.png" /> 	
+		<meta itemprop="url" content="http://bunchofcolors.com" /> 	
+		<meta itemprop="author" content="Manolo Salsas Durán" /> 		
+		<meta itemprop="about" content="Online free application to get and compare RGB colors" />
+		<meta itemprop="applicationCategory" content="Colors" />
+        <meta itemprop="thumbnailUrl" content="http://bunchofcolors.com/img/logo2.png" /> 
         <!--[if lt IE 8]>
         <h2 class="chromeframe">You are using an <strong>obsolete</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">enable Google Chrome Frame</a> to enhance your experience.</h2>
         <![endif]-->
