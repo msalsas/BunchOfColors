@@ -1,0 +1,4 @@
+Sitemap: http://bunchofcolors.com/sitemap.xml
+
+User-agent:* 
+Disallow:
