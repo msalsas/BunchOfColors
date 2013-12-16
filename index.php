@@ -15,7 +15,7 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <![endif]-->
         <title>BunchOfColors. Find all RGB colours</title>
-        <meta name="description" content="BunchOfColors is a web site where you will find any RGB colour.">
+        <meta name="description" content="BunchOfColors is a web application that lets you get and compare RGB colors.">
 		<meta name="keywords" content="BunchOfColors, RGB, RGB colours, RGB colors, colors, colours">
         <meta name="viewport" content="width=device-width">
         <link href="/styles.css" type="text/css" rel="stylesheet" media="all"/>   
