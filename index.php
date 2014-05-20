@@ -118,7 +118,7 @@
 					
 					//Luminance
 					echo '<div id="luminance">';
-					$mean = intval( ( ( 0.2126 * ( ( $newColor >> 16 ) & 0xFF ) ) + ( 0.7152 * ( ( $newColor >> 8 ) & 0xFF ) ) + ( 0.0722 / ( $newColor & 0xFF ) ) ) / 3 );
+					//$mean = $newColor ? intval( ( ( 0.2126 * ( ( $newColor >> 16 ) & 0xFF ) ) + ( 0.7152 * ( ( $newColor >> 8 ) & 0xFF ) ) + ( 0.0722 / ( $newColor & 0xFF ) ) ) / 3 ) : 0;
 					if( ( ( $newColor >> 16 ) & 0xFF ) <= 0xFA && ( ( $newColor >> 8 ) & 0xFF ) <= 0xFA  && ( $newColor & 0xFF ) <= 0xFA  ) 
 					{	
 						$newColorMoreLuminance = str_repeat('0', 2 - strlen( dechex( intval( 5 + ( ( $newColor >> 16 ) & 0xFF ) ) ) ) ) . dechex( intval( 5 + ( ( $newColor >> 16 ) & 0xFF ) ) ) . str_repeat('0', 2 - strlen( dechex( intval( 5 + ( ( $newColor >> 8 ) & 0xFF ) ) ) ) ) . dechex( intval( 5 + ( ( $newColor >> 8 ) & 0xFF ) ) ) . str_repeat('0', 2 - strlen( dechex( intval( 5 + ( $newColor & 0xFF ) ) ) ) ) . dechex( intval( 5 + ( $newColor & 0xFF ) ) );				
