@@ -18,6 +18,7 @@
         <meta name="description" content="BunchOfColors is a web application that lets you get and compare RGB colors.">
 		<meta name="keywords" content="BunchOfColors, RGB, RGB colours, RGB colors, colors, colours">
         <meta name="viewport" content="width=device-width">
+        <link rel="canonical" href="http://bunchofcolors.com" />
         <link href="/styles.css" type="text/css" rel="stylesheet" media="all"/>   
 		<link rel="icon" type="image/x-icon" href="/img/favicon.png" />
 	</head>
